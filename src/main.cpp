@@ -1,8 +1,10 @@
 #include <iostream>
-#include "Matrix.hpp"
+#include "matrix.hpp"
 
 int main() {
-    Matrix m;
-    m.print();
-    return 0;
+	Matrix m;
+	m.print();
+	std::cout << "det = " << m.det() << std::endl;
+	return 0;
 }
+

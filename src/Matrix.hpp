@@ -7,6 +7,7 @@ private:
 public:
     Matrix();
     void print() const;
+    double det() const;
 };
 
 #endif
